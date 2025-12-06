@@ -1,11 +1,96 @@
+FINDLERN ถูกออกแบบให้เป็นแอปที่ใช้งานง่ายสำหรับผู้ใช้ที่ต้องการค้นหา tutor หรือ expert ที่มีความถนัดเฉพาะด้าน เช่น
+ติวหนังสือเฉพาะบท
+ปรึกษางานเร่งด่วน
+สอนการใช้งานซอฟต์แวร์บางอย่าง
+ช่วยแก้ปัญหาแบบเฉพาะหน้า
 
-  # FINDLERN Mobile App Interface
+แอปต้นแบบประกอบด้วยหน้าจอ UI สำหรับ
+ค้นหา tutor/expert
+ดูรายละเอียดผู้สอน
+จองเวลาเรียน
+พูดคุยผ่านแชท
+วิดีโอคอลภายในแอป
+จัดการโปรไฟล์ผู้ใช้
 
-  This is a code bundle for FINDLERN Mobile App Interface. The original project is available at https://www.figma.com/design/mg1KxfMWxO7HsxAtlr5HPu/FINDLERN-Mobile-App-Interface.
+ทั้งหมดนี้ถูกพัฒนาในรูปแบบ Mockup / Prototype เพื่อแสดงการออกแบบ UX/UI
 
-  ## Running the code
+---
 
-  Run `npm i` to install the dependencies.
+🎨
+ Features (UI Mockup)
+🔍
+ 1. หน้า Home & Search
+UI สำหรับค้นหา skill หรือความถนัดเฉพาะทางของ tutor
+แสดงคำค้นยอดนิยม
+หน้าแสดงรายชื่อ tutor ที่ตรงตามเงื่อนไข
+ฟิลเตอร์ (Filter) เช่น ราคา, เรตติ้ง, ออนไลน์/ออนไซต์
 
-  Run `npm run dev` to start the development server.
-  
+---
+
+👤
+ 2. Tutor Detail
+โปรไฟล์ผู้สอน
+ความเชี่ยวชาญเฉพาะทาง
+ราคา/คอร์ส
+รีวิวจากผู้เรียนคนอื่น
+
+---
+
+📅
+ 3. Booking Screen
+หน้าจอเลือกเวลาที่ผู้สอนว่าง
+UI สำหรับยืนยันการจอง (ยังไม่มี logic backend)
+
+---
+
+💬
+ 4. Chat
+UI ของระบบแชทระหว่างผู้เรียนกับ tutor
+รองรับส่งข้อความพื้นฐาน (Mockup)
+
+---
+
+🎥
+ 5. Video Call Mockup
+หน้า Video Call ที่ออกแบบให้ใช้สอนได้ทันที
+ปุ่มปิดไมค์, ปิดกล้อง, วางสาย
+
+---
+
+🧑‍💼
+ 6. User Profile
+แสดงข้อมูลผู้ใช้
+ปรับแต่งข้อมูลพื้นฐานได้
+ดูประวัติการจอง (Mockup UI)
+
+---
+
+🧪
+ Current State
+✔ เป็น UI Mockup / Prototype 100%
+❌
+ ไม่มี backend
+❌
+ ไม่มีระบบฐานข้อมูล
+❌
+ ไม่มี API
+✔ เหมาะสำหรับการนำเสนอ UX/UI และระบบงานเบื้องต้น
+
+---
+
+🤖
+ Agent โปรเจกต์นี้ใช้ AI Agent ช่วยสรุปและอธิบายขั้นตอนต่าง ๆ ของระบบตามหน้าตาแอปที่ออกแบบใน mockup
+ขั้นตอนการทำงานของ Agent (Concept)
+วิเคราะห์หน้าจอและ flow ของแอปจาก mockup
+สรุปความสามารถของแต่ละหน้า
+สร้างเอกสาร README.md อัตโนมัติ (ไฟล์นี้)
+อธิบายโครงสร้างและขั้นตอนการใช้งานของ project ตามที่ปรากฏใน GitHub
+
+---
+
+🛠
+ Tools Used
+Figma – สำหรับออกแบบ UI prototype
+HTML/CSS – สำหรับแสดงตัวอย่างหน้าเว็บจำลอง
+TypeScript – interaction mockup เบื้องต้น
+GitHub – สำหรับเก็บโครงงานและนำเสนอความก้าวหน้า
